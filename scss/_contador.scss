@@ -1,0 +1,44 @@
+
+.container_contador_total{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(211,203,185);
+}
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.countdown div{
+    display: grid;
+    place-items: center;
+}
+.container_contador{
+    display: grid;
+    place-items: center;
+    border: solid 2px #ffffff5b;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    color: rgb(179,142,108);
+    font-size: 1.5rem;
+  
+    background-color: rgb(235,233,222);
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif ;
+
+}
+span{
+    display: block;
+    text-align: center;
+    color:  rgb(179, 142, 108);
+    font-size: 1.2 rem;
+    font-weight: 400;
+    padding-bottom: 5px;
+    font-family: 'Cormorant Garamond', serif ;
+}

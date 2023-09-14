@@ -1,0 +1,83 @@
+@import "reseteo", "carousel", "bienvenida", "botones", "imgb&n", "instagram", "comollegar", "regalos", "contador";
+
+$FuenteTitulos: 'Cormorant Garamond', serif;
+
+
+body {
+  background-color: rgb(235, 233, 222);
+
+  h1,
+  h2 {
+
+    letter-spacing: 3px;
+    font-family: $FuenteTitulos;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+
+    background-color: rgb(130, 115, 101);
+
+    h1 {
+      color: rgb(219, 216, 202);
+    }
+
+    h2 {
+      color: rgb(220, 214, 203);
+    }
+
+    p {
+      color: rgb(235, 233, 222);
+    }
+
+    button {
+      background-color: rgb(203, 187, 174);
+      color: rgb(130, 115, 101);
+    }
+
+    .textoIg {
+      color: black;
+    }
+
+    .modal-sub {
+      color: black;
+    }
+
+    .modal-cbu {
+      color: black;
+    }
+  }
+}
+
+
+@media (max-width:800px) {
+
+  .modal-container {
+    padding: 2em 1.5em;
+  }
+
+  .modal-title {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+.owl-dots {
+  display: none;
+}
